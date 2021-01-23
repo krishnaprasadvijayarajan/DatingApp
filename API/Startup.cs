@@ -42,8 +42,7 @@ namespace API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
             });
-            services.AddIdentityServices(_config);
-            
+            services.AddIdentityServices(_config);            
             // services.AddCors(options=>
             // {
             //     options.AddPolicy(name:"test",
